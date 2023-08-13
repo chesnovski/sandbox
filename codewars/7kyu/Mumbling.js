@@ -11,9 +11,9 @@
 
 
 function accum(s) {
-    return [...s.toUpperCase()].reduce((accum,current,index) => acc+'-'+curr+curr.toLowerCase().repeat(index))
-  
-  }
+  return [...s.toUpperCase()].reduce((accum,current,index) => acc+'-'+curr+curr.toLowerCase().repeat(index))
+	// your code
+}
 
 const array = "abcd"
   console.log(accum(array))
