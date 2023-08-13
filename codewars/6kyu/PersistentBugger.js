@@ -9,11 +9,6 @@
 
 // SOLUTION
 
-// function persistence(num) {
-//     let positiveNum = Math.abs(num)
-//     const separateNum = String(positiveNum).split('')
-//     const arrOfStrs = separateNum.map(Number)
-//     const pro = arrOfStrs.reduce((a, b)=> a*b, 1)
 
 
 function persistence (num) {
@@ -29,3 +24,5 @@ function persistence (num) {
 
 
 console.log(persistence(39))
+
+
