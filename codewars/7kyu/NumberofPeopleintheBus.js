@@ -20,9 +20,9 @@ function busstop(array) {
     const groupedData = array.flat()
     let oddIndexArr = groupedData.filter((_, i) => i % 2 !== 0).reduce((a,b) => a+b)
     let nOddIndexArr = groupedData.filter((_, i) => i % 2 === 0).reduce((a,b) => a+b)
-    console.log(nOddIndexArr-oddIndexArr)
+    return nOddIndexArr-oddIndexArr
 
 }
 
-const array = [[3,0],[9,1],[4,10],[-12,2],[6,1],[7,10]]
+const array = [[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]
 console.log(busstop(array))
