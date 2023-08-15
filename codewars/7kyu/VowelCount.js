@@ -7,20 +7,10 @@
 
 //SOLUTION
 
-function Atat (arr,n){
-    count ={}
-    ann =[]
-
-    for (el of arr){
-        if (count[el]) count[el] =count[el]+1
-        else count[el] =1
-        if (count[el]<=n) ann.push(el)
-    }
-
-    return ann
-
+function getCount(st) {
+    const countVowels = Array.from (st)  .filter (letter => 'aeiou'.includes (letter)).length
+    return countVowels
 }
 
-arr = [1,2,3,12,3,12,3,12,3]
-console.log(Atat(arr,2))
-
+const str = 'Hello how are you'
+console.log(getCount(str))
