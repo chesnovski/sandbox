@@ -16,7 +16,7 @@
 //SOLUTION
 
 function openOrSenior(data){
-    let result =[]
+    const  result =[]
     for (el of data) {
         if (el[0] >=55 && el[1] >7 ) result.push('Senior')
         else result.push('Open')
