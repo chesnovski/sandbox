@@ -12,16 +12,16 @@
 // SOLUTION 
 
 function deleteNth(arr,n){
-  const counter = {}
-  const ann =[]
+  counter = {}
+  ann = []
 
-  for (e of arr){
-    if(counter[e]) counter[e] = counter[e]+1
-    else counter[e] = 1
-    if (counter[e]<=n) ann.push(e)
+  for (el of arr){
+    if (counter[el]) counter[el] = counter[el]+1
+    else counter[el] =1
+    if (counter[el]<=n) ann.push(el)
   }
   return ann
 }
 
-const arr = [20,37,20,21]
-console.log(deleteNth(arr,1))
+const arr = [20,37,20,21,25,21,20,21,20]
+console.log(deleteNth(arr,2))
