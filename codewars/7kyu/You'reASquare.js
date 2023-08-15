@@ -27,13 +27,3 @@ function checkSquare(num){
 
 
 
-function checkGood(checkSquare) {
-    arr = [1,2,3,4,5,6,7,8,10,12,14,16,18]
-    for(el of arr){
-        const value = checkSquare(el)
-        console.log(value)
-
-    }
-}
-
-checkGood(checkSquare)
