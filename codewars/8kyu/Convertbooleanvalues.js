@@ -6,10 +6,7 @@
 //SOLUTION
 
 function boolToWord(bool){
-    if (bool === false) return 'No'
-    else if (bool === true) return 'Yes'
+    return bool ? 'Yes' : 'No'
 }
 
-
-console.log(boolToWord(false))
 console.log(boolToWord(true))
