@@ -16,4 +16,3 @@ function numToString(num) {
 }
 
 
-console.log(typeof(numToString(12)))
