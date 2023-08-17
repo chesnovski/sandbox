@@ -7,4 +7,3 @@ function doubleInteger(i) {
     return Number(2*i)
   }
 
-  console.log(doubleInteger(94))
